@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Navbar from "./Navbar";
 import {Switch, Route, Redirect} from 'react-router-dom';
 import Footer from './Footer';
+import StartQues from './StartQues';
 
 const  App = () => {
   return (
@@ -17,8 +18,9 @@ const  App = () => {
       <Route path = "/home" component={Home} />
       <Route path = "/about" component={About} />
       <Route path = "/contact" component={Contact} />
+      <Route path = "/ques" component={StartQues} />
       <Route path = "/" component={Home} />
-      <Redirect to = "/"/>
+      <Redirect to = "/home"/>
     </Switch>
     <Footer/>
   </>

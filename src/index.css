@@ -21,7 +21,7 @@
   background-color: #fff !important;
 }
 .navbar-default{
-  margin-bottom: 0 !important; }
+  margin-bottom: -4px !important; }
 
 .navbar-brand{
 font-size: 1.8rem;
@@ -156,7 +156,7 @@ color: #565387 !important;
   display: none;
 }
 body {
-  margin: 0;
+  margin-top: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

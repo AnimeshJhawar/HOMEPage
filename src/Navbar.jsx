@@ -1,17 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import web from './LogoPs.JPG'; 
+import web from './download.png'; 
 
 const Navbar = () => {
   return (
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-11 mx-auto">
+          <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-sm navbar-toogleable-sm navbar-light bg-white box-shadow mb-3">
              <div className="container-fluid">
               <NavLink className="navbar-brand" to="/">
-                 <img src={web} alt="Psyching You" width="150" height="120" className="d-inline-block align-top"/>
+                 <img src={web} alt="Psyching You" width="300" height="100" className="d-inline-block align-top"/>
                  <div className="hidden"> Invisible </div>
               </NavLink>
               <button
@@ -40,11 +40,11 @@ const Navbar = () => {
                       About
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <NavLink className="nav-link" to="/contact" activeClassName='menu_active'>
                       Contact
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
              </div>

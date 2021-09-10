@@ -10,13 +10,12 @@ const Home = () => {
           <div className="col-10 mx-auto">
             <div className="row">
               <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                <h1>
-                  Hello! there <br />
-                  <strong className="brand-name"> Psyching You</strong>
+                <h1> 
+                  <strong className="brand-name">Risk-taking behaviour Survey </strong>
                 </h1>
-                <h2 className="my-3">is here to present you, the inner YOU.</h2>
+                <h2 className="my-3">An IIT Delhi initiative for the Indian Youth</h2>
                 <div className="mt-3">
-                  <NavLink to="/about" className="btn-get-started">
+                  <NavLink to="/ques" className="btn-get-started">
                    Let's Get Started!
                   </NavLink>
                 </div>
