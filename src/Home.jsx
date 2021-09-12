@@ -11,9 +11,9 @@ const Home = () => {
             <div className="row">
               <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                 <h1> 
-                  <strong className="brand-name">Risk-taking behaviour Survey </strong>
+                  <strong className="brand-name">Youth & Risk-Taking: Know Your Risk Type? </strong>
                 </h1>
-                <h2 className="my-3">An IIT Delhi initiative for the Indian Youth</h2>
+                <h2 className="my-3">IIT Delhi Study on Risk-Taking, Decision Making & Youth </h2>
                 <div className="mt-3">
                   <NavLink to="/ques" className="btn-get-started">
                    Let's Get Started!

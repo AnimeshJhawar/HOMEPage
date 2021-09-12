@@ -12,13 +12,9 @@ const About = () => {
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Risk-taking behaviour Survey</h5>
+                <h5 class="card-title">Youth & Risk-Taking: Know Your Risk Type?</h5>
                 <p class="card-text">
-                Testing is the actual risk-taking behaviour of youth and measuring risk-taking behaviours using 4 psychological games (Balloon Analogue risk-taking task, IOWA gambling task, Tower of London task, Stroop task) and self-report measures (positive and negative risk-taking behaviours, sensation seeking, impulsivity, Cognitive reflection test, personality measure).
-                </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 days ago</small>
-                </p>
+                We, at the psychology lab of IIT Delhi, are exploring why certain people engage in impulsive and self-harmful behavior, while others engage in profitable and creative risk behaviors and what personality, cognitive and positive factors are unique within both.</p>
               </div>
             </div>
           </div>
